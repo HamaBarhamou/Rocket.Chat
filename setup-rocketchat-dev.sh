@@ -74,5 +74,15 @@ check_command meteor
 print_step "5/6 - Installation des dépendances du projet Rocket.Chat"
 yarn
 
+
+print_step "🛠 Lecture du fichier .env"
+if [ -f .env ]; then
+    echo "📦 Chargement des variables d'environnement depuis .env"
+    export $(grep -v '^#' .env | xargs)
+else
+    echo "⚠️ Fichier .env introuvable, certaines variables nécessaires pourraient manquer."
+fi
+
 print_step "6/6 - Lancement du serveur de développement"
+export OVERWRITE_SETTING_Show_Setup_Wizard=completed
 yarn dsv

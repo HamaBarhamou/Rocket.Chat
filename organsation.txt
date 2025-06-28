@@ -1,0 +1,56 @@
+
+## ✅ 1. 📚 **Canaux à créer**
+
+### 🏛️ Commissions thématiques
+
+| Nom du canal                         | Description                                                |
+| ------------------------------------ | ---------------------------------------------------------- |
+| `#commission-paix-securite`          | Paix, sécurité, réconciliation nationale, cohésion sociale |
+| `#commission-refondation-politique`  | Réformes politiques, culturelles et institutionnelles      |
+| `#commission-economie-developpement` | Économie, finances, développement durable                  |
+| `#commission-justice-droits-humains` | Justice, droits fondamentaux, libertés                     |
+| `#commission-sante-education-social` | Santé publique, éducation, affaires sociales               |
+| `#commission-gouvernance`            | Transparence, redevabilité, réforme administrative         |
+| `#commission-diplomatie-diaspora`    | Espace pour les Nigériens de l’extérieur                   |
+
+---
+
+### 🌍 Canaux transversaux
+
+| Nom du canal               | Description                                             |
+| -------------------------- | ------------------------------------------------------- |
+| `#actualites-gouvernement` | Décrets, communiqués, lois en lien avec la refondation  |
+| `#documentation-ccr`       | Centralisation de documents officiels (PDF, Word, etc.) |
+| `#agenda-sessions`         | Convocations, plénières, annonces de réunions           |
+| `#annonces-importantes`    | Annonces à diffuser à tous les membres du CCR           |
+
+---
+
+### 👥 Groupes représentatifs (optionnels)
+
+| Nom du canal                 | Description                     |
+| ---------------------------- | ------------------------------- |
+| `#autorites-traditionnelles` | Espace pour chefs coutumiers    |
+| `#societe-civile`            | ONG, OSC, syndicats             |
+| `#religieux`                 | Représentants religieux         |
+| `#diaspora`                  | Voix des Nigériens à l’étranger |
+| `#universitaires`            | Experts et chercheurs           |
+
+---
+
+## ✅ 2. 🔐 **Rôles personnalisés à créer**
+
+Depuis **Administration > Permissions > Rôles**, crée manuellement :
+
+| Rôle                   | Description              | Permissions suggérées                                                            |
+| ---------------------- | ------------------------ | -------------------------------------------------------------------------------- |
+| `membre-ccr`           | Membre du Conseil        | Peut écrire/lire dans les canaux publics & ceux où il est ajouté                 |
+| `president-commission` | Président de commission  | Peut gérer son canal de commission (ajouter membres, modifier description, etc.) |
+| `secretaire`           | Gestion des convocations | Peut créer canaux, publier dans `#agenda-sessions`                               |
+| `support-it`           | Assistance technique     | Peut créer/modifier utilisateurs, accéder aux logs, etc.                         |
+
+> Tu pourras **associer ces rôles à des utilisateurs** dans leur profil (admin > utilisateurs > modifier > rôles).
+
+---
+
+Souhaitez-tu maintenant une **fiche imprimable PDF** ou tableau Excel avec cette structure pour aider à la saisie manuelle ?
