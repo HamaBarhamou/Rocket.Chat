@@ -3,7 +3,7 @@ index 9f37b1dd9e3ea128aafb0ceef83641e864474308..795e15b1b008596f0a278ff43cb11037
 --- a/package.json
 +++ b/package.json
 @@ -24,6 +24,7 @@
-       "default": "./swiper-bundle.mjs"
+       "default": "./swiper-bundle.mjs" 
      },
      "./css": "./swiper.css",
 +    "./swiper.css": "./swiper.css",
